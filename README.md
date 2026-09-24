@@ -46,7 +46,7 @@ If the video does not play above, you can [download it here](demo.mp4).
 │   └── vla_teacher.pth               # SWellEx-96 VLA model for pretraining
 ├── utils/                            # Utils scripts
 │   ├── data_load_utils.py            # Loading data
-├─── ...                              # Plot and evaluation methodology: Accurate, RMSE, Distribution, MAE
+├─── ...                              # Plot and evaluation methodology: Accurate, RMSE, Distribution, MAE, AIT, Params, ...
 └── main_scripts/                     # Testing scripts
 │    └── main_train.py                # Main script for measured data (SWellEx-96 HLAH and HLAS and VLA) training
 │    └── main_test.py                 # Main script for measured data (SWellEx-96 HLAH and HLAS and VLA) testing
