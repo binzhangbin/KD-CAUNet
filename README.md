@@ -24,6 +24,9 @@ If the video does not play above, you can [download it here](demo.mp4).
 | Formal Publication | Release complete training/inference code | Upon paper online publication |
 | Supplementary Verification | Public benchmark dataset release | Within 24 hours of publication |
 
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ## 🔍 Future Contents  
 ```bash
 ├── data/                             # Dataset
@@ -53,5 +56,3 @@ If the video does not play above, you can [download it here](demo.mp4).
 ├─── ...                              # Others code
 
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
