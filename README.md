@@ -51,3 +51,6 @@ If the video does not play above, you can [download it here](demo.mp4).
 │    └── main_train.py                # Main script for measured data (SWellEx-96 HLAH and HLAS and VLA) training
 │    └── main_test.py                 # Main script for measured data (SWellEx-96 HLAH and HLAS and VLA) testing
 ├─── ...                              # Others code
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
