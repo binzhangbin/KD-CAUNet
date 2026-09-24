@@ -9,13 +9,13 @@
 - ⚙️ Model architecture details are described in Section 2 (Proposed Method) of the paper
 
 ## 📹 Demo
-Due to the double-blind review process, the full source code will be released
+Due to the review process, the full source code will be released
 upon acceptance. To demonstrate the effectiveness of our method, we provide a
 demo video of our approach running on test data:
 
-<video src="docs/demo.mp4" controls width="100%"></video>
+<video src="demo.mp4" controls width="100%"></video>
 
-If the video does not play above, you can [download it here](docs/demo.mp4).
+If the video does not play above, you can [download it here](demo.mp4).
 
 ## 🚀 Release Plan  
 | Stage | Content | Timeline |
@@ -26,17 +26,28 @@ If the video does not play above, you can [download it here](docs/demo.mp4).
 
 ## 🔍 Future Contents  
 ```bash
-├── core_architecture/                 # Backbone 
-│   ├── caunet.py                 
-│   └── u_parts.py                        
+├── data/                             # Dataset
+│   ├── hlah/                         # HLAH dataset 
+│   ├── hlas/                         # HLAS dataset 
+│   ├── vla/                          # VLA dataset 
+├── uw_unet/                          # Baseline Backbone 
+│   ├── unet_model.py                 
+│   └── u_parts.py
+├── uw_caunet/                         # CAUNet Backbone 
+│   ├── caunet_model.py                 
+│   └── cau_parts.py
+├── uw_kdcauunet/                      # KD-CAUNet Backbone 
+│   ├── kdcaunet_model.py                 
+│   └── kdcau_parts.py          
 │   ...                                # Other benchmark network models 
 ├── pretrained_models/                 # Pre-trained weights
-│   └── hlah_dsrmstransunet.pth        # SWellEx-96 HLAH model for testing
-│   └── hlas_dsrmstransunet.pth        # SWellEx-96 HLAS model for testing
-│   └── vla_dsrmstransunet.pth        # SWellEx-96 VLA model for testing
-├── training_scripts/                  # Training scripts
-│   ├── main_real_train.py             # Main script for measured data (SWellEx-96 HLAH and HLAS and VLA) data training
-│   └── utils_load_dataset.py          # Parameters for data loading
-└── test_scripts/                      # Testing scripts
-│    └── main_real_test.py             # Main script for measured data (SWellEx-96 HLAH and HLAS and VLA) testing
-├─── ...                               # Plot and evaluation methodology: Accurate, RMSE, Distribution, stratified K-fold cross-validation
+│   └── hlah_teacher.pth               # SWellEx-96 HLAH model for pretraining
+│   └── hlas_teacher.pth               # SWellEx-96 HLAS model for pretraining
+│   └── vla_teacher.pth                # SWellEx-96 VLA model for pretraining
+├── utils/                              # Utils scripts
+│   ├── data_load_utils.py             # Loading data
+├─── ...                               # Plot and evaluation methodology: Accurate, RMSE, Distribution, MAE
+└── main_scripts/                      # Testing scripts
+│    └── main_train.py                  # Main script for measured data (SWellEx-96 HLAH and HLAS and VLA) training
+│    └── main_test.py                  # Main script for measured data (SWellEx-96 HLAH and HLAS and VLA) testing
+├─── ...                               # Others code
