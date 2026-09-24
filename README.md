@@ -33,21 +33,21 @@ If the video does not play above, you can [download it here](demo.mp4).
 ├── uw_unet/                          # Baseline Backbone 
 │   ├── unet_model.py                 
 │   └── u_parts.py
-├── uw_caunet/                         # CAUNet Backbone 
+├── uw_caunet/                        # CAUNet Backbone 
 │   ├── caunet_model.py                 
 │   └── cau_parts.py
-├── uw_kdcauunet/                      # KD-CAUNet Backbone 
+├── uw_kdcauunet/                     # KD-CAUNet Backbone 
 │   ├── kdcaunet_model.py                 
 │   └── kdcau_parts.py          
-│   ...                                # Other benchmark network models 
-├── pretrained_models/                 # Pre-trained weights
-│   └── hlah_teacher.pth               # SWellEx-96 HLAH model for pretraining
-│   └── hlas_teacher.pth               # SWellEx-96 HLAS model for pretraining
-│   └── vla_teacher.pth                # SWellEx-96 VLA model for pretraining
-├── utils/                              # Utils scripts
-│   ├── data_load_utils.py             # Loading data
-├─── ...                               # Plot and evaluation methodology: Accurate, RMSE, Distribution, MAE
-└── main_scripts/                      # Testing scripts
-│    └── main_train.py                  # Main script for measured data (SWellEx-96 HLAH and HLAS and VLA) training
-│    └── main_test.py                  # Main script for measured data (SWellEx-96 HLAH and HLAS and VLA) testing
-├─── ...                               # Others code
+│   ...                               # Other benchmark network models 
+├── pretrained_models/                # Pre-trained weights
+│   └── hlah_teacher.pth              # SWellEx-96 HLAH model for pretraining
+│   └── hlas_teacher.pth              # SWellEx-96 HLAS model for pretraining
+│   └── vla_teacher.pth               # SWellEx-96 VLA model for pretraining
+├── utils/                            # Utils scripts
+│   ├── data_load_utils.py            # Loading data
+├─── ...                              # Plot and evaluation methodology: Accurate, RMSE, Distribution, MAE
+└── main_scripts/                     # Testing scripts
+│    └── main_train.py                # Main script for measured data (SWellEx-96 HLAH and HLAS and VLA) training
+│    └── main_test.py                 # Main script for measured data (SWellEx-96 HLAH and HLAS and VLA) testing
+├─── ...                              # Others code
