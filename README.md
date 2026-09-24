@@ -13,7 +13,7 @@ Due to the review process, the full source code will be released
 upon acceptance. To demonstrate the effectiveness of our method, we provide a
 demo video of our approach running on test data:
 
-<video src="demo.mp4" controls width="100%"></video>
+<video src="./demo.mp4" controls width="100%"></video>
 
 If the video does not play above, you can [download it here](demo.mp4).
 
