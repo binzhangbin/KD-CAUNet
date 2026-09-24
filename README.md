@@ -3,10 +3,12 @@
 
 **This repository contains the official implementation for the paper "KD-CAUNet: Geometry-Aware Attentive UNet with Channel-Level Knowledge Distillation for Joint Acoustic Source Range and Depth Estimation in Shallow Water"**  
 
+
 ## 📜 Current Status  
 - 🔒 Core code and experimental data are temporarily withheld to ensure data security and privacy  
 - 📊 All experimental results in the paper were obtained using the complete implementation in this repository  
 - ⚙️ Model architecture details are described in Section 2 (Proposed Method) of the paper
+
 
 ## 📹 Demo
 Due to the review process, the full source code will be released
@@ -17,6 +19,7 @@ demo video of our approach running on test data:
 
 If the video does not play above, you can [download it here](demo.mp4).
 
+
 ## 🚀 Release Plan  
 | Stage | Content | Timeline |
 |-------|---------|----------|
@@ -24,8 +27,10 @@ If the video does not play above, you can [download it here](demo.mp4).
 | Formal Publication | Release complete training/inference code | Upon paper online publication |
 | Supplementary Verification | Public benchmark dataset release | Within 24 hours of publication |
 
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
 ## 🔍 Future Contents  
 ```bash
